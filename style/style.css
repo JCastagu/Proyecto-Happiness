@@ -413,3 +413,134 @@ header nav a {
     max-width: 500px;
     height: auto;
 }
+
+.contenedor-8_subs {
+    background-color: #ffffff;
+    padding: 80px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.formulario-8 {
+    flex: 1 1 350px;
+    max-width: 450px;
+    background-color: #000000;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.fila-form {
+    display: flex;
+    gap: 15px;
+}
+
+.fila-form input {
+    flex: 1;
+}
+
+.formulario-8 input,
+.formulario-8 textarea {
+    background-color: #000000;
+    border: 2px solid #f1e90f;
+    padding: 10px 12px;
+    color: #ffffff;
+    font-size: 14px;
+    outline: none;
+}
+
+.formulario-8 input::placeholder,
+.formulario-8 textarea::placeholder {
+    color: #ffffff;
+}
+
+.formulario-8 textarea {
+    resize: none;
+}
+
+.texto-form {
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+.texto-8 {
+    flex: 1 1 300px;
+    max-width: 400px;
+}
+
+.texto-8 h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.texto-8 p {
+    font-size: 15px;
+    color: #333333;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.boton-8 button {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.contenedor-9_contact {
+    background-color: #f1e90f;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.texto-9 {
+    max-width: 600px;
+}
+
+.texto-9 h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.texto-9 p {
+    font-size: 15px;
+    color: #000000;
+    line-height: 1.5;
+}
+
+.imagen-9 {
+    width: 100%;
+    max-width: 800px;
+}
+
+.imagen-9 img {
+    width: 100%;
+    height: auto;
+}
+
+.boton-contact button {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 40px;
+    border: none;
+    cursor: pointer;
+}
