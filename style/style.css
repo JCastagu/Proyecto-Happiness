@@ -544,3 +544,62 @@ header nav a {
     border: none;
     cursor: pointer;
 }
+
+footer {
+    background-color: #000000;
+    padding: 50px 60px 30px;
+}
+
+.logo-footer {
+    margin-bottom: 40px;
+}
+
+.logo-footer img {
+    height: 50px;
+    width: auto;
+}
+
+.navegacion1,
+.navegacion2 {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 60px;
+    margin-bottom: 40px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-abajo {
+    border-top: 2px solid #f1e90f;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto-footer p {
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.redes-sociales {
+    display: flex;
+    gap: 15px;
+}
+
+.redes-sociales img {
+    width: 24px;
+    height: 24px;
+}
