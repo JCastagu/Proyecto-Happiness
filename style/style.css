@@ -80,3 +80,112 @@ header nav a {
     border: none;
     cursor: pointer;
 }
+
+.contenedor-2 {
+    background-color: #ffffff;
+    margin: 0 60px;
+    padding: 50px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+    position: relative;
+    z-index: 10;
+    margin-bottom: -60px;
+}
+
+.texto-2 {
+    flex: 1 1 300px;
+    max-width: 400px;
+}
+
+.texto-2 h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.texto-2 p {
+    font-size: 15px;
+    color: #333333;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.boton-2 button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.imagenes-2 {
+    flex: 1 1 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.imagenes-2 img {
+    width: 180px;
+    height: auto;
+}
+
+.contenedor-3 {
+    background-color: #f1e90f;
+    padding: 100px 60px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.texto-3 {
+    flex: 1 1 300px;
+    max-width: 420px;
+}
+
+.texto-3 h2 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.texto-3 p {
+    font-size: 15px;
+    color: #000000;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.boton-3 button {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.imagenes-3 {
+    flex: 1 1 350px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.imagenes-3 img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
