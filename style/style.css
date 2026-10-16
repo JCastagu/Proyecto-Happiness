@@ -603,3 +603,99 @@ footer ul li a {
     width: 24px;
     height: 24px;
 }
+
+/* RESPONSIVE DESIGN */
+
+/* Laptops & Small Desktops (hasta 1279px) */
+@media screen and (max-width: 1279px) {
+    .contenedor-inicio, .contenedor-2, .contenedor-3, .contenedor-4, 
+    .contenedor-6_team, .contenedor-7_free, .contenedor-8_subs {
+        padding: 40px;
+    }
+    
+    .contenedor-2, .contenedor-4 {
+        margin: 0 30px;
+    }
+}
+
+/* Laptops & Larger Tablets (hasta 920px) */
+@media screen and (max-width: 920px) {
+    .contenedor-inicio, .contenedor-3, .contenedor-6_team, .contenedor-7_free {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .imagenes-3, .imagenes-6, .imagenes-7 {
+        justify-content: center;
+    }
+
+    .boton-inicio {
+        margin: 0 auto;
+    }
+}
+
+/* Tablets & Larger Smartphones (hasta 768px) */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .contenedor-inicio, .contenedor-2, .contenedor-3, .contenedor-4, 
+    .contenedor-6_team, .contenedor-7_free, .contenedor-8_subs {
+        flex-direction: column;
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .contenedor-2, .contenedor-4 {
+        margin: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    }
+
+    .texto-inicio p, .texto-2 p, .texto-3 p, .texto-4 p, 
+    .texto-6 p, .texto-7 p, .texto-8 p, .texto-9 p {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .imagenes-2, .imagenes-4, .imagenes-3, .imagenes-6, .imagenes-7 {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .formulario-8 {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .footer-abajo {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .navegacion1, .navegacion2 {
+        margin-right: 20px;
+        text-align: left;
+    }
+}
+
+/* Smaller Smartphones (hasta 480px) */
+@media screen and (max-width: 480px) {
+    .texto-inicio h2, .texto-2 h2, .texto-3 h2, .texto-4 h2, 
+    .texto-5 h2, .texto-6 h2, .texto-7 h2, .texto-8 h2, .texto-9 h2 {
+        font-size: 24px;
+    }
+
+    .fila-form {
+        flex-direction: column;
+    }
+
+    .boton-inicio button, .boton-2 button, .boton-3 button, 
+    .boton-4 button, .boton-5 button, .boton-6 button, 
+    .boton-7 button, .boton-8 button, .boton-contact button {
+        width: 100%;
+        padding: 12px 20px;
+    }
+}
